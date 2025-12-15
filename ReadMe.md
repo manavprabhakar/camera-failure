@@ -6,12 +6,24 @@ Steps:-
 
 ## Setup
 1. Start by cloning the repository.
+  ```
+  git clone https://github.com/manavprabhakar/camera-failure.git
+  cd camera-failure
+  ```
 2. Make a python virtual environment.
-3. Install the project specific requirements in the virtual environment.
+   ```
+   python -m venv .venv
+   source .venv/bin/activate
+   ```
+   For Windows
+   ```
+   .\venv\Scripts\activate
+   ```
+4. Install the project specific requirements in the virtual environment.
 
-```python
-pip install -r requirements.txt
-```
+  ```python
+  pip install -r requirements.txt
+  ```
 
 ## Creating the fractured glass image.
 ### For simulation
