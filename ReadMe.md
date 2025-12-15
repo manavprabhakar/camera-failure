@@ -1,16 +1,21 @@
 # Fractured Glass, Failing Cameras: Simulating Physics-Based Adversarial Samples for Autonomous Driving Systems
 
-This is the official github repository for the paper: Fractured Glass, Failing Cameras: Simulating Physics-Based Adversarial Samples for Autonomous Driving Systems
-Paper link: https://arxiv.org/pdf/2405.15033?
+This is the official github repository for the AAAI 2026 paper: https://arxiv.org/pdf/2405.15033?
 
 Steps:-
+
+## Setup
+1. Start by cloning the repository.
+2. Make a python virtual environment.
+3. Install the project specific requirements in the virtual environment.
 
 ```python
 pip install -r requirements.txt
 ```
-### For simulation
 
-For simulating glass patterns. Set the parameters as desired or use the default parameters.
+## Creating the fractured glass image.
+### For simulation
+For simulating glass patterns. Set the parameters as desired or use the default parameters and run
 
 ```python
 python simulation.py
